@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Newsletter sign-up form</title>
+  </head>
+  <body>
+    <div class="newsletter__container">
+      <!-- landing -->
+      <div class="newsletter__form">
+        <div class="newsletter__form--content">
+          <h1 class="newsletter__form--content__heading">Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul class="newsletter__form--content__list">
+            <li><img />Product discovery and building what matters</li>
+            <li><img />Measuring to entire updates are success</li>
+            <li><img />And much more!</li>
+          </ul>
+          <span>
+            <div class="email">Email address</div>
+            <p class="error" id="error">va</p>
+          </span>
+
+          <input
+            class="email--input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@companny.com" />
+          <button class="button--input" type="submit" id="submit">
+            Subscribe to monthly newsletter
+          </button>
+        </div>
+        <div class="newsletter__form--image">
+          <img
+            class="newsletter__form--image__desktop"
+            src="./assets/images/illustration-sign-up-desktop.svg"
+            alt="newsletter sign-up" />
+          <img
+            class="newsletter__form--image__mobile"
+            src="./assets/images/illustration-sign-up-mobile.svg"
+            alt="newsletter sign-up" />
+        </div>
+      </div>
+      <!-- message -->
+      <div class="newsletter__success hide"></div>
+    </div>
+  </body>
+</html>
